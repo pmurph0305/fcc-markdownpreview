@@ -13,8 +13,11 @@
   width: 100%;
 }
 
-.preview-display {
-  background-color: rgb(224, 224, 224);
-  width: 70vw;
-  height: 55vh;
+.preview-markdown {
+  background-color: rgb(220, 220, 220);
+  height: auto;
+  margin-bottom: 1em;
+  width: 75vw;
+  padding: 1em;
 }
+
