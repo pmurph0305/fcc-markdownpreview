@@ -14,9 +14,8 @@ class App extends React.Component {
     }
   }
 
+  // User Story #3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
   onChange = (event) => {
-    console.log('t')
-    console.log(event.target.value);
     this.setState({text: event.target.value})
   }
 
@@ -24,7 +23,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Editor onChange={this.onChange} markdownText={this.state.text}/>
-        <Preview/>
+        <Preview text={this.state.text}/>
       </div>
     );
   }
