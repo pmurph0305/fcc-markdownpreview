@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Editor from './Editor/Editor'
+import Editor from './Editor/Editor';
+import Preview from './Preview/Preview';
 
 class App extends React.Component {
 
@@ -23,6 +24,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Editor onChange={this.onChange} markdownText={this.state.text}/>
+        <Preview/>
       </div>
     );
   }
