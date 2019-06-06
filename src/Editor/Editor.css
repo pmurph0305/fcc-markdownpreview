@@ -1,0 +1,25 @@
+.editor-container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 1em;
+  width: fit-content;
+}
+
+.editor-label {
+  text-align: left;
+  padding-left: 1rem;
+  margin: 0;
+  display: block;
+  background-color: rgb(180, 180, 180);
+  width: 100%;
+}
+.editor-textarea {
+  background-color: rgb(207, 207, 207);
+  color: black;
+  width: 50vw;
+  height: 30vw;
+}
