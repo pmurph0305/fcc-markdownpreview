@@ -6,4 +6,6 @@ https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/
 
 Created with React, using create-react-app, marked, and deployed with gh-pages.
 
-You can run it locally by running `npm start`
+You can run it locally with `npm start`
+
+Or you can visit the website in the description above to view the gh-pages version.
