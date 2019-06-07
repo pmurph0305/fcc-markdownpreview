@@ -1,4 +1,4 @@
-Project was created for freecodecamps front end certification.
+This project was created as part of FreeCodeCamp's front-end libraries certification.
 
 It's an app that allows you to edit and preview markdown.
 
@@ -6,6 +6,4 @@ https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/
 
 Created with React, using create-react-app, marked, and deployed with gh-pages.
 
-You can run it yourself by running npm start
-
-Or you can visit the website linked above to view the gh-pages version.
+You can run it locally by running `npm start`
